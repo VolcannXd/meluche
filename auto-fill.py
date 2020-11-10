@@ -167,10 +167,10 @@ def register() :
 
         Log_file = open("voting_logs.txt", "a")
         if not err :
-            Log_file.write("VOTED : " + str(datetime.now()) + " for error rate of " + str((n_err/index) * 100) + "\n")
+            Log_file.write("VOTED : " + str(datetime.now()) + " for error rate of " + str((n_err/index) * 100) + "%\n")
         else :
             n_err += 1
-            Log_file.write("ERROR : " + str(datetime.now()) + " for error rate of " + str((n_err/index) * 100) + "\n")
+            Log_file.write("ERROR : " + str(datetime.now()) + " for error rate of " + str((n_err/index) * 100) + "%\n")
         Log_file.close()
 
 register()
