@@ -143,7 +143,7 @@ def verify_petition(drive, mail) :
             return None
 
 def register() :
-    drive = webdriver.Chrome('D:\code\python\\auto-fill\\chromedriver')
+    drive = webdriver.Chrome('./chromedriver')
     index = 0
     n_err = 0
 
