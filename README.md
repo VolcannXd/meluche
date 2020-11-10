@@ -1,0 +1,2 @@
+# MÉLUCHE LE ROUGE
+Tu te sens un petit peu nostalgique des années trentes et du populisme démaguoge ? Eh bien déjà, bravo, et ensuite, voilà un bot qui te permetteras de  voter pour le poto Mélenchon automatiquement
